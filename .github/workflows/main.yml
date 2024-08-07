@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
+      
       - name: Run commit script
         run: |
            git config --global user.name "sudhajobs0107"
